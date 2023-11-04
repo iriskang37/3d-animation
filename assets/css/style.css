@@ -3,6 +3,7 @@ body {
   background-color: #f5f5f5;
   color: #4e4e4e;
   font-family: 'Noto Serif Display', serif;
+  background-color: #E6E6FA;
 }
 
 h1,
@@ -853,13 +854,18 @@ a:hover {
   background-color: #0078ff;
 }
 
+.swiper-slide{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
-  background-color: #e6ffff;
+  background-color: #E6E6FA;
 }
 .portfolio-details .portfolio-details-slider{
   height:550px;
@@ -889,6 +895,8 @@ a:hover {
 .portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);
+  background-color: white !important;
+  border: 1px solid #9271A2;
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -897,6 +905,7 @@ a:hover {
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
+
 }
 
 .portfolio-details .portfolio-info ul {
@@ -929,15 +938,19 @@ a:hover {
   font-weight: bold;
 }
 
+strong{
+  color: black;
+  font-weight:700;
+}
 
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 footer {
   text-align: center;
-  color: #fff;
+  color: white;
   padding: 25px 0;
-  background: #00802b;
+  background: #9271A2;
 }
 
 footer .copyright {
@@ -949,7 +962,7 @@ footer .credits {
 }
 
 footer .credits a {
-  color: #fff;
+  color: white;
 }
 
 .myimg{
@@ -967,6 +980,8 @@ footer .credits a {
   width:60%;
 }
 
-#about{
-  background-color:#E6E6FA;
+#about {
+  background-color: #E6E6FA;
+  width: 70%;
+  margin: 0 auto; 
 }
