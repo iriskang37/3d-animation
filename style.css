@@ -179,8 +179,8 @@ a:hover {
 .title-left:before {
   content: "";
   position: absolute;
-  height: 3px;
-  background-color: #0078ff;
+  height: 5px;
+  background-color: #7C7DB4;
   width: 100px;
   bottom: -12px;
 }
@@ -332,11 +332,12 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0078ff;
+  background: #7C7DB4;
   width: 40px;
   height: 40px;
   border-radius: 50px;
   transition: all 0.4s;
+  border: 2px solid #ABACD8;
 }
 
 .back-to-top i {
@@ -896,7 +897,7 @@ a:hover {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);
   background-color: white !important;
-  border: 1px solid #9271A2;
+  border: 3px solid #9271A2;
 }
 
 .portfolio-details .portfolio-info h3 {
